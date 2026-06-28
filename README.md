@@ -175,7 +175,7 @@ This keeps query cost manageable as the wiki grows.
 5. Ask Codex:
 
    ```text
-   $llm-wiki-ingest ingest raw/notes/research-map.md
+   $llm-wiki-ingest raw/notes/research-map.md
    ```
 
 6. Watch the wiki populate with concept pages from your first source
