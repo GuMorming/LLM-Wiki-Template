@@ -1,0 +1,4 @@
+interface:
+  display_name: "LLM Wiki Lint"
+  short_description: "Audit this LLM research wiki for quality issues"
+  default_prompt: "Use $llm-wiki-lint to audit the LLM research wiki and report prioritized issues."

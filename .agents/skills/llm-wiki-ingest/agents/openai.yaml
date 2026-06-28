@@ -1,0 +1,4 @@
+interface:
+  display_name: "LLM Wiki Ingest"
+  short_description: "Ingest raw sources into this LLM research wiki"
+  default_prompt: "Use $llm-wiki-ingest to ingest a raw paper or own-work folder into the LLM research wiki."

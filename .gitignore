@@ -1,0 +1,23 @@
+.DS_Store
+Thumbs.db
+tmp/
+
+# Keep raw source folders but avoid accidentally publishing private source files.
+raw/**
+!raw/**/
+!raw/**/.gitkeep
+!raw/notes/research-map-template.md
+
+# Keep generated outputs local unless intentionally added.
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+
+# Conversation exports can contain private context.
+conversations/**
+!conversations/.gitkeep
+
+# Allow placeholder files.
+!.gitkeep
+!wiki/**/.gitkeep
+!archive/.gitkeep
